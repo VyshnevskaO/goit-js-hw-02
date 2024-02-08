@@ -1,8 +1,8 @@
 // Задача 3. Перевірка спаму
 
 function checkForSpam(message) {
-    const messageEdited = message.toLowerCase();
-    return (messageEdited.includes("spam") || messageEdited.includes("sale"));
+    const normalizedMessage = message.toLowerCase();
+    return (normalizedMessage.includes("spam") || normalizedMessage.includes("sale"));
 }
 
 

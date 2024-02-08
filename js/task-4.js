@@ -1,27 +1,22 @@
 // Задача 4. Доставка товару
 
 function getShippingCost(country) {
-    const priceChina = 100;
-    const priceChile = 250;
-    const priceAustralia = 170;
-    const priceJamaica = 120;
+
 
     switch (country) {
         case "China":
-            return `Shipping to ${country} will cost ${priceChina} credits`;
-    break;
-    
+            return `Shipping to ${country} will cost 100 credits`;
+   
        case "Chile":
-            return `Shipping to ${country} will cost ${priceChile} credits`;
-    break;
-
+            return `Shipping to ${country} will cost 250 credits`;
+  
        case "Australia":
-            return `Shipping to ${country} will cost ${priceAustralia} credits`;
-    break;
+            return `Shipping to ${country} will cost 170 credits`;
+ 
         
         case "Jamaica":
-            return `Shipping to ${country} will cost ${priceJamaica} credits`;
-    break;
+            return `Shipping to ${country} will cost 120 credits`;
+   
         
         default:
             return "Sorry, there is no delivery to your country";
